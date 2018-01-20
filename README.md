@@ -1,2 +1,2 @@
-<h1>Prithibeer Nakshatra</h1><br>
+<h1>Prithibeer Nakshatra</h1>
 Website for an NGO called Prithibeer Nakshatra.
