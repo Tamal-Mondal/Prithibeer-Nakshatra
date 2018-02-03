@@ -5,10 +5,40 @@
 
 .reg {
 	text-align: center;
-	padding : 10px 0px;
-	background-color: #2c394a;
+	padding : 20px 0px;
+	background-color: #c6c6c6;
 }
 
 .regid {
-    color: #fff;
+    color: #000000;
+}
+
+.belief {
+	padding: 30px 0px;
+	background-color: #9e9e9e;
+}
+
+.heading {
+	text-align: center;
+}
+
+.cont {
+	padding : 10px 50px 0px 50px;
+	text-align: center;
+}
+
+.donate {
+	padding : 60px 50px;
+	background-color: #595959;
+}
+
+.foot {
+	padding : 22px 0px;
+	height: 70px;
+	background-color: #000000;
+}
+
+.footext {
+	color: #ffffff;
+	text-align: center;
 }
