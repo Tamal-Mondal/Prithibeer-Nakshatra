@@ -1,0 +1,33 @@
+
+.mylogo {
+	margin-left : 60px;
+}
+
+.reg {
+	text-align: center;
+	padding : 20px 0px;
+	background-color: #c6c6c6;
+}
+
+.regid {
+    color: #000000;
+}
+.con{
+padding-top:150px;
+padding-bottom:150px;
+
+color:black;
+text-align:center;
+background-color:#7FFFD4	
+}
+
+.foot{
+background-color:#DCDCDC	
+}
+
+.footext {
+         padding-top:20px;
+         padding-bottom:20px;
+	color: #000000;
+	text-align: center;
+}
