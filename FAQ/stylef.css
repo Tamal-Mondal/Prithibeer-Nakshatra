@@ -43,8 +43,13 @@
 
               
           
-                   .footext {
-  
-                           text-align: center;
+              .foot {
+	padding : 22px 0px;
+	height: 70px;
+	background-color: #000000;
 }
 
+.footext {
+	color: #ffffff;
+	text-align: center;
+}

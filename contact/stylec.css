@@ -21,13 +21,13 @@ text-align:center;
 background-color:#7FFFD4	
 }
 
-.foot{
-background-color:#DCDCDC	
+.foot {
+	padding : 22px 0px;
+	height: 70px;
+	background-color: #000000;
 }
 
 .footext {
-         padding-top:20px;
-         padding-bottom:20px;
-	color: #000000;
+	color: #ffffff;
 	text-align: center;
 }

@@ -74,8 +74,13 @@
                       background-color: #4682B4;
                       color:white;
                     }
-              
+              .foot {
+	padding : 22px 0px;
+	height: 70px;
+	background-color: #000000;
+}
+
 .footext {
-  
-  text-align: center;
+	color: #ffffff;
+	text-align: center;
 }

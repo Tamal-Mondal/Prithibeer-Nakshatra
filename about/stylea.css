@@ -22,34 +22,38 @@
                       padding: 20px;
                       width: 100%;
                       text-align: center;
+                     
                            
                         
                           
                          }
-                         .p1{float:left;
+.p1{float:left;
                           padding: 50px 20px;
                           background-color:#E0FFFF ;
                           color:black;
-                          width:20%;
-                           height:300px;
-                          
+                          width:40%;
+
+                          height:500px; 
                          }
-                      .c1{
-                         float:right;        
-                          padding-top: 90px ;
+                        .c1{
+                           float:right;      
+                          padding-top:150px;
                           padding-right:30px;
+                          padding-left:10px; 
                           background-color:#E0FFFF ;
                           color:black;
-                          width:80%;
-                           height:300px;
-                           text-align:center;      
-                          }
+                          width:60%;
+                          height:500px;
+                          text-align: center;}
+                                 
+                          
+                         
                           .p2{float:right;
-                          padding: 20px 20px;
+                          padding: 50px 20px;
                           background-color:#E0FFFF ;
                           color:black;
                           width:40%;
-                           height:400px;
+                           height:500px;
                          }
                         .c2{
                            float:left;      
@@ -58,7 +62,7 @@
                           background-color:#E0FFFF ;
                           color:black;
                           width:60%;
-                          height:400px;
+                          height:500px;
                           text-align: center;
                                  
                           }
@@ -66,8 +70,8 @@
                           padding: 50px 20px;
                           background-color:#E0FFFF ;
                           color:black;
-                          width:30%;
-                           height:400px;
+                          width:40%;
+                           height:500px;
                          }
                         .c3{
                            float:right;      
@@ -76,13 +80,25 @@
                           padding-left:10px; 
                           background-color:#E0FFFF ;
                           color:black;
-                          width:70%;
-                          height:400px;
+                          width:60%;
+                          height:500px;
                           text-align: center;
                                  
                           }
-                          .footext {
-  
-  text-align: center;
+img {
+    max-width:100%;
+    height:auto;
+    
+}
+
+    .foot {
+	padding : 22px 0px;
+	height: 70px;
+	background-color: #000000;
+}
+
+.footext {
+	color: #ffffff;
+	text-align: center;
 }
 
