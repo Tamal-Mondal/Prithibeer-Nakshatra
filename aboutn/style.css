@@ -22,52 +22,50 @@
 
 .collapsible
 {
-    clear: both;
-    float: none;
-    margin:0;
-    background-color: #AFEEEE ;
-    color: black;
-    border:0;
-    padding: 20px 0px;
-    text-align: center;
-    width: 100%;
+  clear: both;
+  float: none;
+  margin:0;
+  background-color: #AFEEEE ;
+  color: black;
+  border:0;
+  padding: 20px 0px;
+  text-align: center;
+  width: 100%;
 }
 
-                      .p1{
-                          float:left;
-                          width: 40%;
-                          margin: 5% 5%;
-                          background-color:#E0FFFF;
-                         }
+.p1{
+  float:left;
+  width: 40%;
+  margin: 5% 5%;
+  background-color:#E0FFFF;
+ }
 
-                      .c1{
-                          float:right;
-                          margin: 5% 0;
-                          background-color:#E0FFFF;
-                          color:black;
-                          width: 50%;
-                          text-align: center;
-                          padding: 7% 0 0 0;
-                        }
+.c1{
+  float:right;
+  margin: 5% 0;
+  background-color:#E0FFFF;
+  color:black;
+  width: 50%;
+  text-align: center;
+  padding: 7% 0 0 0;
+}
 
-                                 
-                          
-                         
-                        .p2{
-                          float:right;
-                          width: 40%;
-                          margin: 5% 5%;
-                          background-color:#E0FFFF;
-                         }
-                        .c2{
-                          float:left;
-                          margin: 5% 0;
-                          background-color:#E0FFFF ;
-                          color:black;
-                          width: 50%;
-                          text-align: center;
-                          padding: 7% 0 0 0;
-                          }
+.p2{
+  float:right;
+  width: 40%;
+  margin: 5% 5%;
+  background-color:#E0FFFF;
+}
+
+.c2{
+  float:left;
+  margin: 5% 0;
+  background-color:#E0FFFF ;
+  color:black;
+  width: 50%;
+  text-align: center;
+  padding: 7% 0 0 0;
+}
 
 
 
@@ -104,16 +102,6 @@
     width: 100%;
   }
   .c2 {
-    height: auto;
-    width: 100%;
-  }
-
-  .p3 {
-    margin: 0px;
-    height: auto;
-    width: 100%;
-  }
-  .c3 {
     height: auto;
     width: 100%;
   }
