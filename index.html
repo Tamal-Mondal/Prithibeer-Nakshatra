@@ -8,19 +8,44 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link href="style.css" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 
     <title>Prithibeer Nakshatra</title>
   </head>
   <body>
-
-
-      <!--NAVBAR-->
-      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      
+  <!--    <nav class="navbar navbar-expand-lg navbar-light bg-primary nav1">
         <a class="navbar-brand" href="#">
           <img src="img/logo.png" width="50" height="50" class="d-inline-block align-top mylogo" alt="">
-          <br>Prithibeer Nakshatra
         </a>
-        <button class="navbar-toggler btn-outline-success" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <h5>Prithibeer Nakshatra</h5>
+          <ul class="navbar-nav mr-auto"></ul>
+          <ul class="navlist">
+            <li class="navlistitem">
+              <div>
+                <i class="fab fa-facebook"></i>
+              </div>
+            </li>
+            <li class="navlistitem">
+              <div>
+                <i class="fab fa-linkedin"></i>
+              </div>            
+            </li>
+            <li class="navlistitem">
+              <div>
+                <i class="fab fa-instagram"></i>
+              </div>
+            </li>
+          </ul>
+      </nav>   -->
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <a class="brandlogo" href="#">
+          <img src="img/logo.png" width="50" height="50" class="d-inline-block align-top mylogo" alt="">
+        </a>
+        <h5 class="brandname">Prithibeer Nakshatra</h5>
+        <button class="navbar-toggler btn-outline-success navbut" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -30,18 +55,21 @@
               <a class="nav-link text-center" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-center" href="#" id="hedbel">Belief</a>
+              <a class="nav-link text-center" href="#" id="hedbeli">Belief</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#" id="hedbel">Abstract</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle text-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               About Us
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="about.html#his">History</a>
+                <a class="dropdown-item" href="aboutn.html#his">History</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="about.html#vm">Mission and Vision</a>
+                <a class="dropdown-item" href="aboutn.html#vm">Mission and Vision</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="about.html#team">Team</a>
+                <a class="dropdown-item" href="aboutn.html#team">Team</a>
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -82,13 +110,13 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active carous">
-            <img class="d-block w-100" src="img/misson.jpg" alt="First slide">
+            <img class="d-block w-100 carimg" src="img/pic 12.jpg" alt="First slide">
           </div>
           <div class="carousel-item carous">
-            <img class="d-block w-100" src="img/pic 1.jpg" alt="Second slide">
+            <img class="d-block w-100 carimg" src="img/volunteer2.jpg" alt="Second slide">
           </div>
           <div class="carousel-item carous">
-            <img class="d-block w-100" src="img/team.jpg" alt="Third slide">
+            <img class="d-block w-100 carimg" src="img/donate2.jpg" alt="Third slide">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -101,37 +129,62 @@
         </a>
       </div>
 
-
+      
       <div class="reg">
          <h2 class="regid">Regd. No. : s/1l/84383</h2>
       </div>
 
+
       <div class="belief" id="bel">
-         <h1 class="heading">Belief</h1>
+         <h1 class="heading">Abstract</h1>
          <p class="cont">Prithibeer Nakshatra is social organization working for  the welfare and social upliftment of underprivileged children. We strive to provide education as one of our main objective . Food and healthcare for these children are also our point of focus . Our main driving force are none except todays youth .We are basically an youth biased social organization for the unprivileged kids registered under registration of society act . Non-Government Organization PRITHIBEER NAKSHATRA’s main centre of operation is situated in Durgapur. We recently expanded our scope of work to Kolkata and expect to expand throughout places of need soon will all your support.</p>
       </div>
 
-      <div class="card-deck donate" id="don">
-        <div class="card text-center">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Title</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, quidem. Corporis at nihil mollitia, maiores eum voluptatem maxime, dolorem sunt, quis laboriosam expedita. Tempora totam consectetur id iure blanditiis! Quae.</p>
-            <a href="#" class="btn btn-primary">Donate</a>
+
+      <div class="donate" id="don">
+         <h2 class="heading">Let's Keep It Growing</h2>
+         <button type="button" class="btn btn-outline-success donbut"><span class="dontxt">Donate</span></button>
+      </div>
+
+
+      <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active carous belcar">
+            <div class="beldiv">
+              <h2 class="belhed"><p class="belpar">Donor speak</p></h2>
+              <p class="belcon">It is our responsibility to bring forth underprivileged into the main stream of life. I am happy to be a part, though not directly , but here I could see my donation being utilized in the right way to the needy.</p>
+            </div>
+          </div>
+          <div class="carousel-item carous belcar">
+            <div class="beldiv">
+              <h2 class="belhed"><p class="belpar">Volunteer speak</p></h2>
+              <p class="belcon">It is a great experience to work with Prithibeer Nakshatra , the innocent smiles of the children for whom we work for gives an immense happiness and pressure that can’t be explained in words . Come be a part of it and experience the same.</p>
+            </div>
+          </div>
+          <div class="carousel-item carous belcar">
+            <div class="beldiv">
+              <h2 class="belhed"><p class="belpar">Partners views</p></h2>
+              <p class="belcon">Theirs no such experience like putting in efforts for a noble cause . We are lucky that we got an opportunity for being associated with this venture.</p>
+            </div>
           </div>
         </div>
-        <div class="card text-center">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Title</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, quidem. Corporis at nihil mollitia, maiores eum voluptatem maxime, dolorem sunt, quis laboriosam expedita. Tempora totam consectetur id iure blanditiis! Quae.</p>
-            <a href="#" class="btn btn-primary">Donate</a>
-          </div>
-        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
 
       <div class="foot">
-        <p class="footext">&copy; 2018 Prithibeer Nakshatra<p>
+        <p class="footext">&copy; 2018 Prithibeer Nakshatra</p>
       </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS and finally script.js-->
