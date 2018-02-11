@@ -29,21 +29,38 @@
              </nav>
              <style>
              #map {
-              height=400px;
-             width=100%;
+              height:600px;
+             width:100%;
            }
            </style> 
-            <h1>My Map</h1>
+            
             <div id="map"></div>
               <script>
                 function initMap(){
                   var options={
+<<<<<<< HEAD
                     zoom:8,
                     center:{lat:22.5771018 , lng:-88.2753363}
+=======
+                    zoom:10,
+                    center:{lat:22.5771018 ,lng:88.2753363}
+>>>>>>> bf6e4db02fe929db6c2b8b7315730a511d2fd55e
                   }
                 
 
                 var map= new google.maps.Map(document.getElementById('map'),options); 
+                var marker1=new google.maps.Marker({
+                  position:{lat:22.5771018 ,lng:88.2753363},
+                  map:map
+
+                })
+
+                var marker2=new google.maps.Marker({
+                  position:{lat:22.6363004,lng:88.3641527,},
+                  map:map
+
+                })
+                
                 }
               </script>
               
@@ -52,16 +69,22 @@
 
               
 
-             <div class="con">
-             
-              <h1>Contact Information</h1>
-              <p>Prithibeer Nakshatra
-             <br>A4-14/4 V.K.NAGAR
-          <br>DURGAPUR-713210
-          <br>WESTBENGAL
-          <br>+91-8250469274
-          <br>nakshatraprithibeer@gmail.com</p>
-             </div>
+        <div class="address">
+              <p>
+                Durgapur Address:<br>A4-14/4 V.K.NAGARDURGAPUR-713210 
+                <br<>WESTBENGAL 
+                <br>Contact:+91-9476211177
+              </p>
+              <hr>
+              <p>
+                Kolkata Address:<br>7/12 Borada Bashak Street <br>M.B apartment <br>Boranagar <br>Kolkata 700036
+                <br>Contact:+91-8250469274
+              </p>
+
+
+
+            </div>
+            
 
 
 
