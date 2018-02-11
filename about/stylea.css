@@ -84,17 +84,32 @@
                           height:500px;
                           text-align: center;
                                  
-                          }
-img {
-    max-width:100%;
-    height:auto;
-    
+                 }
+@media only screen and (max-width: 230px) {
+{  
+.collapsible{width:100%}
+.p1{ width:100%
+}
+.c1{ width:100%
+}
+
+.p2{ width:100%
+}
+.c2{ width:100%
+}
+.p3{ width:100%
+}
+.c3{ width:100%
+}
+.foot{ width:100%
+}
 }
 
     .foot {
 	padding : 22px 0px;
 	height: 70px;
 	background-color: #000000;
+
 }
 
 .footext {
