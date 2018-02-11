@@ -73,11 +73,13 @@
                         padding:20px;
                       background-color: #4682B4;
                       color:white;
+                      border-radius:40px;
                     }
               .foot {
-	padding : 22px 0px;
+	padding : 12px 28px;
 	height: 70px;
 	background-color: #000000;
+        
 }
 
 .footext {
