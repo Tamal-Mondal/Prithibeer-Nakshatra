@@ -27,7 +27,33 @@
             </li>
         </ul>
              </nav>
+             <style>
+             #map {
+              height=400px;
+             width=100%;
+           }
+           </style> 
+            <h1>My Map</h1>
+            <div id="map"></div>
+              <script>
+                function initMap(){
+                  var options={
+                    zoom:8,
+                    center:{lat:22.5771018 lng:-88.2753363}
+                  }
+                
+
+                var map= new google.maps.Map(document.getElementById('map'),options); 
+                }
+              </script>
+              
+                  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVtIV7eBJS7ZuUb8sQw7fkFByCJqFgG98&callback=initMap"
+    async defer></script>
+
+              
+
              <div class="con">
+             
               <h1>Contact Information</h1>
               <p>Prithibeer Nakshatra
              <br>A4-14/4 V.K.NAGAR
