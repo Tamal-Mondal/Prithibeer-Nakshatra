@@ -1,4 +1,9 @@
 
+/*$(document).ready(function() {
+    $('#bel').height($(window).height() - 90);
+}); */
+
+
 $("#hedbel").click(function() {
     $('html, body').animate({
         scrollTop: $("#bel").offset().top
