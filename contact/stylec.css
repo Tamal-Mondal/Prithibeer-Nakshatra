@@ -1,6 +1,23 @@
 
+.navbar {
+
+}
+
 .mylogo {
-	margin-left : 60px;
+	 margin : 0px;
+	 padding : 0px;
+     height: 70px;
+     width: 70px;
+}
+
+.brandname {
+	padding: 0px;
+	margin : 0px;
+	float: left;
+}
+
+.navbut {
+	margin-left: 7px;
 }
 
 .reg {
@@ -12,6 +29,11 @@
 .regid {
     color: #000000;
 }
+.belief {
+	padding: 30px 0px;
+	background-color: #9e9e9e;
+}
+
 .address{
 
 position:fixed;
