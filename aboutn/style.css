@@ -5,8 +5,8 @@
 .mylogo {
 	 margin : 0px;
 	 padding : 0px;
-     height: 70px;
-     width: 70px;
+   height: 70px;
+   width: 70px;
 }
 
 .brandname {
@@ -18,21 +18,6 @@
 .navbut {
 	margin-left: 7px;
 }
-
-.reg {
-	text-align: center;
-	padding : 20px 0px;
-	background-color: #c6c6c6;
-}
-
-.regid {
-    color: #000000;
-}
-.belief {
-	padding: 30px 0px;
-	background-color: #9e9e9e;
-}
-
 
 
 
@@ -50,6 +35,11 @@
   width: 100%;
 }
 
+.cont {
+  overflow: auto;
+  background-color: #E0FFFF;
+}
+
 .p1{
   float:left;
   width: 40%;
@@ -64,7 +54,7 @@
   color:black;
   width: 50%;
   text-align: center;
-  padding: 7% ;
+  padding: 7% 2% 0px 0px;
 }
 
 .p2{
@@ -81,9 +71,8 @@
   color:black;
   width: 50%;
   text-align: center;
-  padding: 7% ;
+  padding: 7% 2% 0px 0px;
 }
-
 
 
 .foot {

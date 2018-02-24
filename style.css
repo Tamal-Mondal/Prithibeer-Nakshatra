@@ -20,7 +20,7 @@
 	margin-left: 7px;
 }
 
-/*
+
 .navlist {
 	margin :  0px;
 	padding: 0px;
@@ -30,9 +30,17 @@
 .navlistitem {
 	margin-right: 10px;
 	float: right;
-	font-size:2em; 
-	color: #ffffff;
-}    */
+	font-size:2em;
+}    
+
+.carous button {
+  position: absolute;
+  top: 60%;
+  left: 70%;
+  padding: 7px 50px;
+  border-radius: 50px 50px;
+
+}
 
 .reg {
 	text-align: center;
@@ -44,18 +52,60 @@
     color: #000000;
 }
 
-.belief {
-	padding: 30px 0px;
-	background-color: #9e9e9e;
+#bel {
+	padding: 0px 0px;
+
+
+    /*Parallax*/
+	background-color: #2c3e50;
+	background-image: url('img/abstract.jpg');
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    height: 400px;
+}
+
+.hero-cont {
+	line-height: 1.5;
+
+    position: relative;
+    top: 50%;
+    left: 50%;  
+
+    width: 100%;
+    height: 100%;
+ /*   max-width: 600px;   */
+    padding: 20px;
+    padding-bottom: 30px;
+
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+         -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    text-align: center;
+
+
+    -webkit-border-radius: 3px;
+            border-radius: 3px;
+    background: rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, .18);
+            box-shadow: 0 0 25px rgba(0, 0, 0, .18);;   
 }
 
 .heading {
+	margin-top: 40px;
 	text-align: center;
 }
 
 .cont {
 	padding : 10px 50px 0px 50px;
 	text-align: center;
+	font-size: 17px;
+    color: #ffffff;
+
 }
 
 .donate {
@@ -90,24 +140,42 @@
 }
 
 .belhed {
-    
+         
 }
- 
+
 .belcon {
    text-align: center;
    padding: 0px 70px;
 }
 
 .foot {
-	padding : 22px 0px;
 	height: 70px;
 	background-color: #000000;
+	padding-left: 20px;
 }
 
 .footext {
+	margin-top: 20px;
 	color: #ffffff;
 	text-align: center;
+	float : left;
 }
+
+.navlist {
+	margin :  0px;
+	padding: 0px;
+	list-style-type: none;
+	float: right;
+	margin-right: 10px;
+}
+
+.navlistitem {
+	margin-top: 10px;
+	margin-right: 10px;
+	float: right;
+	font-size:2em;
+	color: #ffffff;
+}  
 
 
 @media screen and (max-width: 1140px) {
@@ -119,6 +187,15 @@
 }
 
 @media screen and (max-width: 420px) {
+
+
+.carous button {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  padding: 7px 25px;
+  border-radius: 50px 50px;
+}
 
 }
 
