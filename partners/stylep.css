@@ -96,9 +96,11 @@
                     .button1{
                         padding:10px;
                       background-color: #4682B4;
+                      width:300px;
+                      
                       color:white;
                       border:none;
-                      border-radius:40px;
+                     border-radius:40px;
                     }
               .foot {
 	padding : 12px 28px;
