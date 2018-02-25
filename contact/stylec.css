@@ -47,14 +47,57 @@ width:30%;
 }
 
 
+
 .foot {
-	
-        padding : 22px 0px;
 	height: 70px;
 	background-color: #000000;
+	padding-left: 20px;
 }
 
 .footext {
+	margin-top: 20px;
 	color: #ffffff;
 	text-align: center;
+	float : left;
+}
+
+.navlist {
+	margin :  0px;
+	padding: 0px;
+	list-style-type: none;
+	float: right;
+	margin-right: 10px;
+	background-color: #000000;
+}
+
+.navlistitem {
+	margin-top: 10px;
+	margin-right: 10px;
+	float: right;
+	font-size:2em;
+	color: #ffffff;
+}  
+
+.foolink {
+	color: inherit;
+}
+
+
+@media screen and (max-width: 420px) {
+
+.foot {
+	height: 120px;
+	background-color: #000000;
+}
+
+.navlist {
+	clear: both;
+    float: left;
+}
+
+.navlistitem {
+	margin-top: 0px;
+}  
+
+
 }
