@@ -33,11 +33,13 @@
 	background-color: #9e9e9e;
 }
 .accordion {
+
+margin:50px 0 120px 120px;
     background-color: #AFEEEE;
     color: #000;
     cursor: pointer;
     padding: 18px;
-    width: 100%;
+    width: 80%;
     text-align: center;
     border: none;
     outline: none;
@@ -49,19 +51,23 @@
     background-color: #00CED1;
 }
 
+ 
 
 .panel {
+        
+        margin:0 0 120px 120px;
+        width:80%;    
         padding:0 18px;
     background-color: #E0FFFF;
-    overflow: hidden;
+    overflow:hidden;
 max-height:0;
     transition: max-height 0.2s ease-out;
     text-align:center;
 
 }
 
-.accordion:after {
-    content: '\02795';
+.accordion:after{
+    content:"+";
     font-size: 13px;
     color: #777;
     float: right;
@@ -69,5 +75,7 @@ max-height:0;
 }
 
 .active:after {
-    content: "\2796"; 
+    content: "-"; 
 }
+
+    
